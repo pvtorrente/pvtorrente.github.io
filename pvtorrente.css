@@ -50,6 +50,7 @@ h1 {
 .topright {
 	position: absolute;
 	margin-left: 90%;
+	text-shadow: 0px 0px;
 }
 
 .column {

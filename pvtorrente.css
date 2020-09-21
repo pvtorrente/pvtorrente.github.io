@@ -12,7 +12,6 @@ body, html {
 	
   background-image: url("images/background.jpg");
   background-repeat: no-repeat;
-  background-size:100% auto;
   background-color: white;
   text-shadow: 1px 1px rgb(248,248,255,0.5);	
 }

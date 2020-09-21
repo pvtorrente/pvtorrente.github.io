@@ -13,7 +13,7 @@ body, html {
   background: url("images/background.jpg");
   background-repeat: no-repeat;
   background-color: white;
-  text-shadow: 1px 1px rgb(248,248,255,0.5);	
+  text-shadow: 2px 2px 3px rgb(248,248,255,0.45);	
 }
 
 img {

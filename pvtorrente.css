@@ -1,5 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
 body, html {
@@ -10,11 +9,11 @@ body, html {
   margin: 0;
   padding: 0;
   border: 0;
-	
+
   background: url("images/background.jpg");
   background-repeat: no-repeat;
   background-color: white;
-  text-shadow: 2px 2px 3px rgb(248,248,255,0.45);	
+  text-shadow: 2px 2px 3px rgb(248,248,255,0.45);
 }
 
 img {
@@ -26,15 +25,18 @@ img {
 
 h1 {
   font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  text-align: center;
 }
 
 h2 {
   font-family: 'Playfair Display', serif;
+  text-align: center;
 }
 
 .centeredtext {
   margin-bottom: 15%;
-  margin-top: 15%; 
+  margin-top: 15%;
   margin-right: 15%;
   margin-left: 15%;
 }
@@ -42,13 +44,14 @@ h2 {
 .marginedtext {
   margin-right: 20%;
   margin-left: 20%;
+  text-align: center;
 }
 
 .top-centered {
   position: absolute;
   top: 8px;
   Left: 50%;
-  transform: translate(-50%, 0%);		
+  transform: translate(-50%, 0%);
 }
 
 .topright {
@@ -62,6 +65,7 @@ h2 {
 .column {
   float: left;
   width: 50%;
+  text-align: center;
 }
 
 .row:after {
@@ -87,8 +91,8 @@ video {
   margin-left: 10%;
 }
 
-.videoResponsive iframe, 
-.videoResponsive object, 
+.videoResponsive iframe,
+.videoResponsive object,
 .videoResponsive embed {
   position:absolute;
   left:0;
@@ -103,7 +107,7 @@ video {
 
 }
 
-.row {  
+.row {
   display: flex;
   flex-wrap: wrap;
 }
